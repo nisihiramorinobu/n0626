@@ -1,0 +1,21 @@
+#nav1 ol {
+  display: flex;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+
+}
+
+
+#nav1 .name {
+
+  font-weight: bold;
+ 
+}
+#nav1 li:after {
+  content: ">";
+  padding: 0 10px;
+  display: inline-block;
+}
+
